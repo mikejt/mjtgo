@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import "fmt","sub"
+
+var version string
 
 func main() {
-	fmt.Printf("Hello, world.\n")
+	fmt.Printf("Hello, world. My version is %s\n", version)
+	Sub()
 }
+
